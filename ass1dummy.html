@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata and favicon inclusion -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Student Registration System</title>
+    <link rel="stylesheet" href="ass1dummy.css"> <!-- Link to external CSS file -->
+    <link rel="icon" type="image/x-icon" href="favicon1.png"> <!-- Favicon added -->
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <!-- Link to view student records -->
+            <li><a href="recordsdummy.html">View Registered Students</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main content section -->
+    <main>
+        <!-- Header section displaying the system title and description -->
+        <header>
+            <h1>Student Registration System</h1>
+            <p>Use this system to register and manage student records.</p>
+        </header>
+
+        <!-- Form section where users register a new student -->
+        <section>
+            <form id="registrationForm">
+                <!-- Input field for the student's name -->
+                <label for="studentName">Student Name:</label>
+                <input type="text" id="studentName" name="studentName" required>
+                
+                <!-- Input field for the student ID -->
+                <label for="studentID">Student ID:</label>
+                <input type="number" id="studentID" name="studentID" required>
+                
+                <!-- Input field for the student's email -->
+                <label for="emailID">Email ID:</label>
+                <input type="email" id="emailID" name="emailID" required>
+                
+                <!-- Input field for the student's contact number -->
+                <label for="contactNo">Contact No:</label>
+                <input type="tel" id="contactNo" name="contactNo" required pattern="[0-9]{10}">
+                
+                <!-- Submit button to register the student -->
+                <button type="submit">Register Student</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Link to the external JavaScript file -->
+    <script src="ass1dummy.js"></script>
+</body>
+</html>
